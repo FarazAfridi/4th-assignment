@@ -1,0 +1,98 @@
+.navbar{
+    background-color: black !important;
+}
+.navbar-brand{
+    color: #fff !important;
+    margin-left: 40px;
+}
+.nav-link{
+    color: #fff !important;
+    margin-left: 30px !important;
+}
+.form-inline{
+    margin-left: 20px;
+    margin-right: auto;
+}
+.checkout{
+    margin-left: auto !important;
+}
+.qualities{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.quality1, .quality2, .quality3, .quality4{
+    display: flex;
+    width: 40% ;
+    background-color: black;
+    box-shadow: 2px 4px 5px grey;
+    color: #28A745;  
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 10px;
+}
+i{
+    font-size: 32px;
+    margin-right: 10px;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: black !important;
+    
+}
+
+.Collection{
+    margin-top: 40px;
+}
+.card {
+    margin: 20px 0;
+    background-color: black;
+    color: #fff; 
+    border: none;
+    border-radius: 10px;
+}
+.heading{
+    text-shadow: 2px 4px 5px black;
+}
+.footer {
+    width: 100%;
+    background-color: black;
+    height: 70px;
+    color:  #28A745;
+    text-align: center;
+}
+@media screen and (max-width: 1060px){
+    .quality1, .quality2, .quality3, .quality4{
+        width: 100%;
+    }
+}
+.navbar-toggler-icon{
+    background-color: white;
+}
+.dropdown-menu{
+    background-color: black;
+    
+}
+.dropdown-item{
+    color: #fff !important;
+}
+.form-column{
+    margin-top: 40px;
+    font-weight: bold;
+}
+.form-heading{
+    margin-bottom: 20px;
+}
+.contact-btn{
+    margin: 20px 0 !important;
+}
+.about-text{
+    line-height: 2.5;
+    
+}
+.about-section{
+    margin: 20px auto 30px auto;
+}
